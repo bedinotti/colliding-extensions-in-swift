@@ -8,10 +8,10 @@
 
 import UIKit
 // Uncomment this line if you'd like to include StringExtensionOne's extensions to String
-import StringExtensionOne
+//import StringExtensionOne
 
 // Uncomment this line if you'd like to include StringExtensionTwo's extensions to String
-import StringExtensionTwo
+//import StringExtensionTwo
 
 class ViewController: UIViewController {
     @IBOutlet var collisionLabel: UILabel!
