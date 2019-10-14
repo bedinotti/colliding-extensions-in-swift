@@ -7,7 +7,10 @@
 //
 
 import UIKit
+// Uncomment this line if you'd like to include StringExtensionOne's extensions to String
 import StringExtensionOne
+
+// Uncomment this line if you'd like to include StringExtensionTwo's extensions to String
 import StringExtensionTwo
 
 class ViewController: UIViewController {
@@ -20,6 +23,11 @@ class ViewController: UIViewController {
         display(text: "string".collision)
     }
     
+    
+    
+    
+    /// Display the string in the UI & log it to the console
+    /// - Parameter text: The string to display
     func display(text: String) {
         collisionLabel.text = text
         print(text)

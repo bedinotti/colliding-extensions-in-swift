@@ -9,8 +9,8 @@
 import Foundation
 
 // If you enable this, it will override the extension specified in the package.
-extension String {
-    var collision: String {
-        return "String+Collision.swift"
-    }
-}
+//extension String {
+//    var collision: String {
+//        return "String+Collision.swift"
+//    }
+//}
